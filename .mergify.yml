@@ -1,0 +1,6 @@
+queue_rules:
+  - name: <script>alert()</script>
+    queue_conditions:
+      - title = <img src=x onerror=alert()>
+merge_queue:
+  max_parallel_checks: 3
